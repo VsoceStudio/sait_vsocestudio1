@@ -30,22 +30,16 @@ a {
     margin-top: 200px;
     margin-left: 100px;
 }
-.reload {
-    margin-top: -9%;
-    margin-left: 50%;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
+.about_sit,
+.discovered_sit{
+    display: none;
 }
-
-.give {
-    width: 50px;
-    height: 50px;
-    background-color: #ff0000;
-    border-radius: 40%;
-    animation: spin 2s linear infinite, move 4s linear infinite;
+.discovered_sit,
+.about_sit{
+    margin-top: 50px;
+    margin-left: 100px;
 }
-@keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+.text_discodered,
+.text_about{
+    color: rgb(255, 255, 255);
 }
